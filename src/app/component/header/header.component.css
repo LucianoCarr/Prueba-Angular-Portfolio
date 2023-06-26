@@ -1,0 +1,50 @@
+h1 {
+    font-style: oblique;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+li {
+    font-weight: bold;
+    font-size: smaller;
+    padding: 12px;
+    border-style: groove;
+    text-align: center;
+}
+
+.cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.back-img {
+    background-image: URL('https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2021/01/cielo-azul-2207291.jpg?tf=3840x');
+    background-size: cover;
+}
+
+.photo {
+    width: 15rem;
+    border-radius: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+}
+
+
+h3 {
+    padding: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+    h3 {
+        padding: 0;
+    }
+}
