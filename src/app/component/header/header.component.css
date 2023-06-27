@@ -10,11 +10,16 @@ ul {
     padding: 0;
 }
 
-li {
-    font-weight: bold;
-    font-size: smaller;
+ul a {
+    font-style: oblique;
+    font-weight: 700;
     padding: 12px;
     border-style: groove;
+    mix-blend-mode: color-burn;
+    width: 100%;
+}
+
+li {
     text-align: center;
 }
 
@@ -38,6 +43,18 @@ li {
     margin: auto;
 }
 
+.sky {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    position: fixed;
+    padding-right: 1rem;
+    mix-blend-mode: difference;
+}
+
+.sky img {
+    width: 4%;
+}
 
 h3 {
     padding: 3rem;
@@ -46,5 +63,18 @@ h3 {
 @media only screen and (max-width: 500px) {
     h3 {
         padding: 0;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        padding: 4px;
+    }
+
+    ul a {
+        padding: 0;
+        font-size: smaller;
     }
 }
