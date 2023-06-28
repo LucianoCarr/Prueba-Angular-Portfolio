@@ -5,3 +5,7 @@
     box-sizing: 0;
     width: 100%;
 }
+
+body {
+    background-color: rgba(128, 128, 128, 0.226);
+}

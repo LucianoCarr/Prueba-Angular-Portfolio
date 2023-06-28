@@ -1,10 +1,17 @@
+section {
+    font-style: oblique;
+    border: 85px outset rgba(37, 37, 206, 0.603);
+}
+
 h1 {
     font-size: 2rem;
     color: crimson;
-    font-style: oblique;
 }
 
 h3 {
-    font-style: oblique;
     color: turquoise;
+}
+
+p {
+    font-weight: 500;
 }
