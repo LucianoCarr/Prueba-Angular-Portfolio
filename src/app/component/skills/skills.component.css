@@ -1,12 +1,8 @@
 .butterfly {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ficons.iconarchive.com%2Ficons%2Fpaomedia%2Fsmall-n-flat%2F1024%2Fdevice-laptop-icon.png&f=1&nofb=1&ipt=692922452a7073e4b9b764d7e8a13679869c55b1c20fa5d0ae903141383acbd6&ipo=images");
+    background-image: url("https://www.shutterstock.com/image-vector/japanese-dragon-260nw-218762626.jpg");
     background-position: center;
-    background-size: contain;
-    background-repeat: space;
-    background-size: 200px;
-    width: 100%;
-    height: 8rem;
-    margin: 3rem 0;
+    background-size: cover;
+    height: 32rem;
 }
 
 h1 {
