@@ -1,8 +1,5 @@
 .butterfly {
-    background-image: url("https://www.shutterstock.com/image-vector/japanese-dragon-260nw-218762626.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 32rem;
+    height: 14rem;
 }
 
 
@@ -49,7 +46,6 @@ i {
     justify-content: space-evenly;
     width: 80%;
     border-style: initial;
-    /* border: dotted 4px crimson; */
 }
 
 .card:hover {
@@ -69,6 +65,11 @@ background-color: rgba(255, 255, 255, 0.774);
 .card-p {
     font-style: oblique;
     text-align: center;
+    font-weight: 700;
+}
+
+a {
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 500px) {

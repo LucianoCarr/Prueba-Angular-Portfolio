@@ -1,10 +1,3 @@
-/* .butterfly {
-    background-image: url("https://www.shutterstock.com/image-vector/japanese-dragon-260nw-218762626.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 32rem;
-}
- */
 h1 {
     font-size: 36px;
     font-weight: 800;
@@ -55,21 +48,16 @@ li {
 }
 
 .sky {
-    display: flex;
-    margin-left: auto;
-    justify-content: flex-end;
+    display: block;
     position: fixed;
-    padding-right: 1rem;
+    right: 0;
+    width: 4%;
 }
 
 .sky img {
     border-radius: 40%;
-    width: 4%;
+    width: 100%;
 }
-
-/* h3 {
-    padding: 3rem;
-} */
 
 @media only screen and (max-width: 500px) {
     h3 {
